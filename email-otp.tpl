@@ -2,9 +2,7 @@
 
 <p>{{description}}</p>
 
-<div class="button-wrapper">
-    <div class="otp-code">{{otp}}</div>
-</div>
+<div class="otp-code">{{otp}}</div>
 
 <p>{{clientInfo}}</p>
 

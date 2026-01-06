@@ -3,9 +3,7 @@
 <p>{{optionButton}}</p>
 
 <div class="button-wrapper">
-    <div class="button-container">
-        <a href="{{redirect}}" target="_blank" class="button">{{buttonText}}</a>
-    </div>
+    <a href="{{redirect}}" target="_blank" class="button">{{buttonText}}</a>
 </div>
 
 <p>{{optionUrl}}</p>

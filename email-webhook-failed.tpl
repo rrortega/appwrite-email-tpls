@@ -20,7 +20,5 @@
 <p>After the issue is resolved, please make sure to re-enable the webhook directly through the webhook settings.</p>
 
 <div class="button-wrapper">
-    <div class="button-container">
-        <a href="{{host}}{{path}}" target="_blank" class="button">Webhook settings</a>
-    </div>
+    <a href="{{host}}{{path}}" target="_blank" class="button">Webhook settings</a>
 </div>
