@@ -138,7 +138,7 @@
             .button {
                 display: inline-block;
                 background: #00b593;
-                color: #ffffff;
+                color: #ffffff !important;
                 border-radius: 8px;
                 min-height: 48px;
                 padding: 14px 28px;
