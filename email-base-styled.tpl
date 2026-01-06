@@ -329,7 +329,7 @@
                 <img
                     class="logo"
                     src="https://chambapro-appwrite.s3.us-east-1.amazonaws.com/storage/uploads/logos/{{project}}.svg"
-                    alt="{{project}} logo"
+                    alt="{{project}}"
                 />
 
                 <!-- Heading -->
