@@ -352,30 +352,7 @@
 {{body}}
                                 </div>
 
-                                <!-- Social section -->
-                                <div class="social-section" style="padding-top: 24px; border-top: 1px solid #e8e9f0; margin-top: 24px; text-align: center;">
-                                    <div class="social-icons" style="display: inline-flex; gap: 8px;">
-                                        <a href="{{twitterUrl}}" style="width: 36px; height: 36px; border-radius: 8px; background-color: #f0f0f2; display: flex; align-items: center; justify-content: center; text-decoration: none;">
-                                            <img src="https://cloud.appwrite.io/images/mails/x.png" height="20" width="20" alt="X" />
-                                        </a>
-                                        <a href="{{discordUrl}}" style="width: 36px; height: 36px; border-radius: 8px; background-color: #f0f0f2; display: flex; align-items: center; justify-content: center; text-decoration: none;">
-                                            <img src="https://cloud.appwrite.io/images/mails/discord.png" height="20" width="20" alt="Discord" />
-                                        </a>
-                                        <a href="{{githubUrl}}" style="width: 36px; height: 36px; border-radius: 8px; background-color: #f0f0f2; display: flex; align-items: center; justify-content: center; text-decoration: none;">
-                                            <img src="https://cloud.appwrite.io/images/mails/github.png" height="20" width="20" alt="GitHub" />
-                                        </a>
-                                    </div>
-
-                                    <div class="footer-links" style="margin-top: 16px;">
-                                        <a href="{{termsUrl}}" style="color: #616b7c; text-decoration: none; font-size: 13px;">Terms</a>
-                                        <span style="color: #e8e9f0; margin: 0 8px;">|</span>
-                                        <a href="{{privacyUrl}}" style="color: #616b7c; text-decoration: none; font-size: 13px;">Privacy</a>
-                                    </div>
-
-                                    <p class="copyright" style="text-align: center; font-size: 12px; color: #8e93a1; margin-top: 16px; line-height: 1.5;">
-                                        &copy; {{year}} Appwrite
-                                    </p>
-                                </div>
+                                
                             </td>
                         </tr>
                     </table>
