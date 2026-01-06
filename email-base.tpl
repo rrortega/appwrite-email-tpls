@@ -337,7 +337,7 @@
                                 <!-- Logo -->
                                 <img
                                     class="logo"
-                                    src="https://chambapro-appwrite.s3.us-east-1.amazonaws.com/storage/uploads/logos/{{project}}.svg"
+                                    src="https://via.placeholder.com/200x100/FF6B6B/FFFFFF?text=Logo"
                                     alt="{{project}}"
                                     width="150"
                                     height="40"
