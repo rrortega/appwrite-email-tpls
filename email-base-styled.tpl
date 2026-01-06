@@ -320,54 +320,74 @@
         </div>
 
         <!-- Barra superior verde -->
-        <div class="top-bar"></div>
+        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color: #00b593;">
+            <tr>
+                <td height="3" style="font-size: 0; line-height: 0;">&nbsp;</td>
+            </tr>
+        </table>
 
         <!-- Card principal -->
-        <div class="email-card">
-            <div class="card-content">
-                <!-- Logo -->
-                <img
-                    class="logo"
-                    src="https://chambapro-appwrite.s3.us-east-1.amazonaws.com/storage/uploads/logos/{{project}}.svg"
-                    alt="{{project}}"
-                />
+        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color: #f8f9fa;">
+            <tr>
+                <td align="center" style="padding: 24px 16px;">
+                    <!-- Card -->
+                    <table width="500" max-width="100%" cellpadding="0" cellspacing="0" border="0" style="max-width: 500px; width: 100%; background-color: #ffffff; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);">
+                        <tr>
+                            <td style="padding: 32px 24px;">
+                                <!-- Logo -->
+                                <img
+                                    class="logo"
+                                    src="https://chambapro-appwrite.s3.us-east-1.amazonaws.com/storage/uploads/logos/{{project}}.svg"
+                                    alt="{{project}}"
+                                    width="150"
+                                    height="40"
+                                    style="display: block; width: 150px; height: 40px; margin: 0 auto 24px auto; object-fit: contain; background-color: #ffffff; border: none;"
+                                />
 
-                <!-- Heading -->
-                <h1>{{heading}}</h1>
+                                <!-- Heading -->
+                                <h1 style="font-size: 22px; margin: 0 0 16px 0; color: #373b4d; font-family: 'Poppins', sans-serif; font-weight: 600; text-align: center;">{{heading}}</h1>
 
-                <!-- Body content -->
-                <div class="email-body">
+                                <!-- Body content -->
+                                <div class="email-body" style="font-family: 'Inter', sans-serif; font-size: 15px; line-height: 1.6; color: #616b7c;">
 {{body}}
-                </div>
+                                </div>
 
-                <!-- Social section -->
-                <div class="social-section">
-                    <div class="social-icons">
-                        <a href="{{twitterUrl}}" class="social-icon" title="Twitter">
-                            <img src="https://cloud.appwrite.io/images/mails/x.png" height="20" width="20" alt="X" />
-                        </a>
-                        <a href="{{discordUrl}}" class="social-icon" title="Discord">
-                            <img src="https://cloud.appwrite.io/images/mails/discord.png" height="20" width="20" alt="Discord" />
-                        </a>
-                        <a href="{{githubUrl}}" class="social-icon" title="GitHub">
-                            <img src="https://cloud.appwrite.io/images/mails/github.png" height="20" width="20" alt="GitHub" />
-                        </a>
-                    </div>
+                                <!-- Social section -->
+                                <div class="social-section" style="padding-top: 24px; border-top: 1px solid #e8e9f0; margin-top: 24px; text-align: center;">
+                                    <div class="social-icons" style="display: inline-flex; gap: 8px;">
+                                        <a href="{{twitterUrl}}" style="width: 36px; height: 36px; border-radius: 8px; background-color: #f0f0f2; display: flex; align-items: center; justify-content: center; text-decoration: none;">
+                                            <img src="https://cloud.appwrite.io/images/mails/x.png" height="20" width="20" alt="X" />
+                                        </a>
+                                        <a href="{{discordUrl}}" style="width: 36px; height: 36px; border-radius: 8px; background-color: #f0f0f2; display: flex; align-items: center; justify-content: center; text-decoration: none;">
+                                            <img src="https://cloud.appwrite.io/images/mails/discord.png" height="20" width="20" alt="Discord" />
+                                        </a>
+                                        <a href="{{githubUrl}}" style="width: 36px; height: 36px; border-radius: 8px; background-color: #f0f0f2; display: flex; align-items: center; justify-content: center; text-decoration: none;">
+                                            <img src="https://cloud.appwrite.io/images/mails/github.png" height="20" width="20" alt="GitHub" />
+                                        </a>
+                                    </div>
 
-                    <div class="footer-links">
-                        <a href="{{termsUrl}}">Terms</a>
-                        <span class="divider">|</span>
-                        <a href="{{privacyUrl}}">Privacy</a>
-                    </div>
+                                    <div class="footer-links" style="margin-top: 16px;">
+                                        <a href="{{termsUrl}}" style="color: #616b7c; text-decoration: none; font-size: 13px;">Terms</a>
+                                        <span style="color: #e8e9f0; margin: 0 8px;">|</span>
+                                        <a href="{{privacyUrl}}" style="color: #616b7c; text-decoration: none; font-size: 13px;">Privacy</a>
+                                    </div>
 
-                    <p class="copyright">
-                        &copy; {{year}} Appwrite
-                    </p>
-                </div>
-            </div>
-        </div>
+                                    <p class="copyright" style="text-align: center; font-size: 12px; color: #8e93a1; margin-top: 16px; line-height: 1.5;">
+                                        &copy; {{year}} Appwrite
+                                    </p>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
 
         <!-- Barra inferior verde -->
-        <div class="bottom-bar"></div>
+        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color: #00b593;">
+            <tr>
+                <td height="3" style="font-size: 0; line-height: 0;">&nbsp;</td>
+            </tr>
+        </table>
     </body>
 </html>
